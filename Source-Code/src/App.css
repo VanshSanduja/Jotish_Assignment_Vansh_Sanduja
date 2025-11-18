@@ -1,0 +1,103 @@
+/* Global clean look */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "SF Pro Display", sans-serif;
+  background: linear-gradient(135deg, #f7f8fc, #e2ecff);
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.btn-look {
+  display: flex;
+  gap: 10px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #2b2d42;
+  text-align: center;
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background: #2575fc;
+  color: white;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f5f7ff;
+}
+
+tr:hover {
+  background-color: #eaf0ff;
+}
+
+/* Webcam and image */
+img, video {
+  border-radius: 12px;
+}
+
+/* Centering utility */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
